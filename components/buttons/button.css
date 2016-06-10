@@ -1,0 +1,99 @@
+@import url(http://db.onlinewebfonts.com/c/a6bec1c4ef2d2fd1bac5a6951f5f32a3?family=American+Captain);
+
+/* HEADER SETUP */
+
+.top {
+  background-color: #fff;
+}
+
+header p:before {
+  content: "\003c""   ";
+}
+
+header p {
+  margin: 1em;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+header a, header a:hover,header a:active,header a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+/* BODY SETUP */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mid {
+  padding: 1em;
+  background: #bdc3c7;
+}
+
+h3 {
+  color: #fff;
+  font-family: "American Captain";
+  letter-spacing: 5px;
+  font-weight: lighter;
+}
+
+body h3::before {
+  content: "#";
+}
+
+
+/* BUTTON SETUP */
+.button {
+  display: inline-block;
+  letter-spacing: 2.5px;
+  text-shadow: 0px 1px 0px rgba(30, 30, 30, 0.8);
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.8em;
+  margin: 1em;
+  border-bottom: 3px solid #2c3e50;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border: none;
+  box-shadow: 0px 3px 3px rgba(44, 62, 80, 0.64);
+  border-radius: 5px;
+  font-family: "American Captain";
+  text-decoration: none;
+  cursor: pointer;
+  outline: 0px none !important;
+}
+
+.button:hover {
+  background-color: #36aef8;
+  box-shadow: #ffffff;
+}
+
+.button:active {
+  background-color: #2980b9;
+  color: rgba(255, 255, 255, 0.77);
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.button:hover,.button:active,.button:link {
+  outline: 0px none;
+}
+
+/* BUTTON SIZE */
+.button-sm {
+  padding: 0.8em;
+  font-size: smaller;
+}
+
+.button-md {
+  padding:  1em;
+  font-size: medium;
+}
+
+.button-lg {
+  padding: 1.2em;
+  font-size: x-large;
+}
