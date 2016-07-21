@@ -1,4 +1,39 @@
-@import url(http://db.onlinewebfonts.com/c/a6bec1c4ef2d2fd1bac5a6951f5f32a3?family=American+Captain);
+
+/*
+
+  NAVIGATION
+
+*/
+
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav a:hover{
+  background-color: rgb(44, 62, 80);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(24,188,156);
+}
+
+.navbar-inverse .navbar-nav a:before {
+  font-family: FontAwesome;
+  content: "\f060  ";
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: rgb(44, 62, 80);
+}
+
+
+/*@import url(http://db.onlinewebfonts.com/c/a6bec1c4ef2d2fd1bac5a6951f5f32a3?family=American+Captain);*/
+
 
 /* HEADER SETUP */
 
@@ -26,6 +61,9 @@ header a, header a:hover,header a:active,header a:visited {
   margin: 0;
   box-sizing: border-box;
 }
+
+body { background-color: rgb(189, 195, 199);}
+
 
 .mid {
   padding: 1em;
