@@ -1,0 +1,22 @@
+{
+  "name": "project-assignment-2-learning-web-components",
+  "version": "1.0.0",
+  "description": "Web components I've made as part of the cirriculum at LMD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snagy22000/project-assignment-2-learning-web-components.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snagy22000/project-assignment-2-learning-web-components/issues"
+  },
+  "homepage": "https://github.com/snagy22000/project-assignment-2-learning-web-components#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8"
+  }
+}
