@@ -31,10 +31,6 @@
   background-color: rgb(44, 62, 80);
 }
 
-
-/*@import url(http://db.onlinewebfonts.com/c/a6bec1c4ef2d2fd1bac5a6951f5f32a3?family=American+Captain);*/
-
-
 /* HEADER SETUP */
 
 .top {
@@ -72,7 +68,7 @@ body { background-color: rgb(189, 195, 199);}
 
 h3 {
   color: #fff;
-  font-family: "American Captain";
+  font-family: san-serif;
   letter-spacing: 5px;
   font-weight: lighter;
 }
@@ -98,7 +94,7 @@ body h3::before {
   border: none;
   box-shadow: 0px 3px 3px rgba(44, 62, 80, 0.64);
   border-radius: 5px;
-  font-family: "American Captain";
+  font-family: san-serif;
   text-decoration: none;
   cursor: pointer;
   outline: 0px none !important;
